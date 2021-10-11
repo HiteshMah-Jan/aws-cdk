@@ -105,18 +105,7 @@ public class ProfileFragment extends Fragment {
                 Bitmap profileBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.profile_female);
                 profileIconIV.setImageBitmap(profileBitmap);
             }
-        }
-
-        userName = (TextView) rootView.findViewById(R.id.userName);
-        userWeight = (TextView) rootView.findViewById(R.id.userWeight);
-        userAge = (TextView) rootView.findViewById(R.id.userAge);
-        userGender = (TextView) rootView.findViewById(R.id.userGender);
-        userActivityLvl = (TextView) rootView.findViewById(R.id.userActivityLvl);
-
-        return rootView;
-    }
-
-    private void findUserPrescribedNutrients() {
+        {
         prescribedCalories = 0;
         prescribedCarbs = 0;
         prescribedSugars = 0;
