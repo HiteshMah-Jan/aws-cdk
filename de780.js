@@ -108,7 +108,6 @@ public class ProfileFragment extends Fragment {
         }
 
         userName = (TextView) rootView.findViewById(R.id.userName);
-        userHeight = (TextView) rootView.findViewById(R.id.userHeight);
         userWeight = (TextView) rootView.findViewById(R.id.userWeight);
         userAge = (TextView) rootView.findViewById(R.id.userAge);
         userGender = (TextView) rootView.findViewById(R.id.userGender);
