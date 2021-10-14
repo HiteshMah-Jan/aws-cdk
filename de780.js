@@ -69,7 +69,6 @@ public class ProfileFragment extends Fragment {
     private float prescribedFats;
 
     private TextView userName;
-    private TextView userWeight;
     private TextView userAge;
     private TextView userGender;
     private TextView userActivityLvl;
