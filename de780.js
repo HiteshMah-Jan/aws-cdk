@@ -136,8 +136,7 @@ public class ProfileFragment extends Fragment {
 
                     //set profile attributes
                     userName.setText(object.getString("username"));
-                    userHeight.setText(height + " cm");
-                    userWeight.setText(weight + " kg");
+                   
                     userAge.setText(age + "");
                     userGender.setText(gender);
                     userActivityLvl.setText(getActivityLvlShortForm(object.getString("activityLvl")));
